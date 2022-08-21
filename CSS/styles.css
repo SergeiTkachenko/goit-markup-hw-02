@@ -21,10 +21,10 @@
 body {
   font-family: var(--main-font);
   font-size: 14px;
-  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 
   color: var(--main-txt-cl);
+  background-color: var(--team-caerd-bg-cl);
 }
 
 .visually-hidden {
@@ -43,7 +43,8 @@ body {
 
 .container {
   max-width: 1170px;
-  margin-left: 215px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* початок хедер */
@@ -135,7 +136,6 @@ body {
 }
 
 .footer-contact-adress {
-  letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
 
@@ -186,9 +186,12 @@ body {
 }
 
 .hero-btn {
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
+
+  cursor: pointer;
 
   display: flex;
   align-items: center;
@@ -229,13 +232,13 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--title-txt-cl);
 }
 
 .benefits-list-content {
+  line-height: calc(24 / 14);
 }
 
 /* переваги кінець */
@@ -250,7 +253,6 @@ body {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--dark-txt-cl);
 }
@@ -269,9 +271,6 @@ body {
 
 .team {
   background-color: var(--team-bg-cl);
-
-  width: 1600px;
-  height: 648px;
 }
 
 .team-title {
@@ -279,7 +278,6 @@ body {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--title-txt-cl);
 }
@@ -303,12 +301,14 @@ body {
   line-height: 19px calc(19 / 16);
 
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--title-txt-cl);
 }
 
 .team-card-profession {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+
   text-align: center;
 }
 
@@ -370,7 +370,6 @@ body {
 .portfolio-text {
   font-size: 16px;
   line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
 }
 
 /* PORTFOLIO END */
